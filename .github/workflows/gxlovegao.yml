@@ -1,21 +1,26 @@
 name: gxlovegao
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '48 3/6 * * *'
-
+    - cron: '40 5/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: gxlovegao
         env:
-          xx2225: ${{ secrets.xx2225 }}
+          vx46: ${{ secrets.vx46 }}
         run: |
-          echo $xx2225 | jq -r .hqry310 | /bin/bash
-          echo $jmeqd784 | jq -r .nrklt39164 | /bin/bash
-          echo $waicw1070 | jq -r .smyhk35051 | /bin/bash
-          echo $vnpj384 | jq -r .qtp8201 | /bin/bash
+          echo $vx46 | jq -r .xbj4 | /bin/bash
+          echo $j2032 | jq -r .ehm1388 | /bin/bash
+          echo $famf56509 | jq -r .pv654 | /bin/bash
+          echo $i87621 | jq -r .u4 | /bin/bash
+          echo $boy6 | jq -r .vwz91 | /bin/bash
+          echo $iu16 | jq -r .tdp9 | /bin/bash
+          echo $uxk0 | jq -r .jxcuy4 | /bin/bash
+          echo $smodl9 | jq -r .jc04928 | /bin/bash
+          echo $qqk735 | jq -r .xkib5 | /bin/bash
+          echo $czbfc3 | jq -r .f904 | /bin/bash
 
